@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Обчислювання n</title>
+    <link rel="stylesheet" href="css/main.css"> </head>
+
+<body>
+    <div class="header">
+       <div id="menu2">
+           <input type="button" value="save" id="saveHtml">
+           <input type="button" id="createTabel" value="Create Table">
+           <input type="button" id="createSpys" value="Creat List">
+       </div>
+        <div id="menu1">
+            <input class="knop" type="button" id="edit" value="Edit">
+            <input class="knop" type="button" id="bold" value="B">
+            <input class="knop" type="button" id="kurs" value="I">
+            <input class="knop" type="button" id="underl" value="U">
+            <select class="knop" name="" id="ptOftxt">
+                <option value="12">12pt</option>
+                <option value="14">14pt</option>
+                <option value="16">16tp</option>
+                <option value="18">18pt</option>
+                <option value="20">20pt</option>
+            </select>
+            <select class="knop" name="" id="fmOftxt">
+                <option value="arial">Arial</option>
+                <option value="sans-serif">sans-serif</option>
+                <option value="cursive">cursive </option>
+                <option value="fantasy">Afantasy</option>
+                <option value="monospace">monospace</option>
+            </select>
+            <input class="knop" type="button" id="colorT" value="Color">
+            <input class="knop" type="button" id="backg" value="Background">
+            <span style="margin-left: 10px">left</span>
+            <input type="radio" id="alignL" name="align">
+            <span>center</span>
+            <input type="radio" id="alignC" name="align">
+            <span>right</span>
+            <input type="radio" id="alignR" name="align"> </div>
+            <div id="boxon1" style="display: none">
+            <input type="button" id="imageButt" value="Background image">
+            <div id="boxon" >
+        <div class="bixa" style="background: red"></div>
+        <div class="bixa" style="background: blue"></div>
+        <div class="bixa" style="background: black;"></div>
+        <div class="bixa" style="background: green; clear: both"></div>
+        <div class="bixa" style="background: yellow"></div>
+        <div class="bixa" style="background: violet"></div>
+        <div class="bixa" style="background: darkblue;  clear: both;"></div>
+        <div class="bixa" style="background: gray"></div>
+        <div class="bixa" style="background: darkgreen"></div>
+        </div>
+        </div>
+        <div id="imageB" style="display: none;">
+            <div id="imaga">
+        <div class="imagasa" style="background-image: url(images1.jpg)"></div>
+        <div class="imagasa" style="background-image: url(images2.jpg)"></div>
+        <div class="imagasa" style="background-image: url(images3.jpg)"></div>
+        <div class="imagasa" style="background-image: url(images4.jpg); clear: both"></div>
+        <div class="imagasa" style="background-image: url(images5.jpg)"></div>
+        <div class="imagasa" style="background-image: url(images2.jpg)"></div>
+        <div class="imagasa" style="background-image: url(images7.jpg); clear: both"></div>
+        <div class="imagasa" style="background-image: url(images8.jpg)"></div>
+        <div class="imagasa" style="background-image: url(images7.jpg)"></div>
+    </div>
+       <input type="file" id="loadImg">
+        </div>
+    </div>
+    <div style="overflow-y: scroll" id="htmlOn" class="html"><p>Whaha ist just joke. HIHI Whaha ist just joke. HIHI</p>
+    <p>Whaha ist just joke. HIHI Whaha ist just joke. HIHI</p>
+    <p>Whaha ist just joke. HIHI Whaha ist just joke. HIHI</p>
+    <p>Whaha ist just joke. HIHI Whaha ist just joke. HIHI</p>
+    <p>Whaha ist just joke. HIHI Whaha ist just joke. HIHI</p>
+    <p>Whaha ist just joke. HIHI Whaha ist just joke. HIHI</p>
+    <p>Whaha ist just joke. HIHI Whaha ist just joke. HIHI</p>
+    </div>
+     <div id="table" style="display: none;" class="tableBox">
+            <span >к-сть рядків</span>
+            <input class="valids" type="text" id='rows' style="width:30px; margin-left: 22px">
+            <span style="margin-left: 40px">к-сть стовбців</span>
+            <input class="valids" type="text" id="cols" style="width:30px; margin-left: 13px;">
+            <br>
+            <span >висота комірки</span>
+            <input class="valids" type="text" id="tbHeight" style="width:30px">
+            <span style="margin-left: 40px">ширина комірки</span>
+            <input class="valids" type="text" id="tbWidth" style="width:30px">
+            <br><br>
+            <span>Товщина</span>
+            <input class="valids" type="text" id="bordWidth" style="width: 30px">
+            <span>Тип Лінії</span>
+            <select id="bordPoloska">
+                <option value="dotted">dotted</option>
+                <option value="dashed">dashed </option>
+                <option value="solid">solid</option>
+                <option value="double">double</option>
+                 <option value="groove">groove</option>
+            </select>
+            <span>Колір лінії</span>
+            <select id="bordColor">
+                <option value="red">red</option>
+                <option value="black">black</option>
+                <option value="blue">blue</option>
+            </select>
+            <br><br>
+            <input type="button" id="createTb" value="Створити таблицю">
+            <input type="button" id="clear1" value="очистити">
+        </div>
+         <div class="spisBox" id="tablesp2" style="display: none;">
+          <h3>Cтворити список</h3>
+           <span>Нумерований:</span>
+           <input type="radio" id="numbor" name="spis12">
+           <span>Маркерований:</span>
+           <input type="radio" id="numbor2" name="spis12">
+           <br>
+            <span>Введіть кількість елементів у списку:</span>
+            <input class="valids" type="text" style="width: 30px" id="spelem">
+            <br>
+            <span>Тип маркування списку:</span>
+            <br>
+            <select id="typeMark">
+                <option value="circle">circle</option>
+                <option value="disc">disc</option>
+                <option value="square">square</option>
+            </select>
+             <select id="typeMark1" style="display:none ;">
+                <option value="1">123</option>
+                <option value="a">abc</option>
+                <option value="I">I II III</option>
+            </select>
+            <br><br>
+            <input type="button" value="Створити список" id="spblocksp">
+            <input type="button" id="clear2" value="очистити">
+        </div>
+    <div class="html1" id="htmlIn" style="display: none; "> <textarea name="" id="txtAria" cols="172" rows="37"></textarea></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

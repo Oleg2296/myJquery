@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background: #651F1F;
+    border: 1px solid brown;
+    margin: 0 auto;
+}
+#menu1 {
+    width: 900px;
+    margin: 35px auto;
+    color: white;
+/*    display: none;*/
+}
+#menu2 {
+    width: 300px;
+    margin: 35px auto;
+    color: white;
+    display: none;
+}
+.knop, #menu2 input {
+    width: 75px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: black;
+    color: white;  
+}
+.html, .html1 {
+/*    width: 100%;*/
+    padding: 20px;
+    height: 500px;
+    margin: 0 auto;
+}
+/*
+.html1{
+    width: 900px;
+    margin: 0 auto;
+}
+*/
+#boxon,#imaga {
+    width: 200px;
+    height: 200px;
+}
+.bixa,.imagasa {
+    outline: 1px solid black;
+    width: 33%;
+    height: 33%;
+    float: left;
+}
+#boxon1,#imageB {
+    background-size: cover;
+      position: absolute;
+    left: 650px;
+    top: 220px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid lightgray;  
+    border-radius: 10px;
+    padding: 10px;
+}
+#imageB {
+    height: 220px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+#htmlOn {
+    background-size: cover;
+}
+#table{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    left: 600px;
+    top: 150px;
+    background: white;
+    width: 360px;
+
+}
+#tablesp2 {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background: white;
+    width: 360px;
+    
+}
+#imageButt {
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+#cteateTb {
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
